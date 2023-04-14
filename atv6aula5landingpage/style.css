@@ -1,0 +1,83 @@
+
+body{
+    background-color: #40423c;
+    color: white;
+    font-family:poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto; /* centraliza o site*/
+    padding: 15px; /* margens laterais*/
+}
+
+header{
+    display: flex ; /*transforma  numa felxbox*/
+    flex-direction: row; /*trnsforma numa linha*/
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+
+}
+
+li{
+    display: inline-block; /*trnsforma a lista de cima numa linha*/
+    margin: 20px;
+}
+
+h1{
+    font-family: poppinsmedium;
+    font-size: 56px;
+    line-height: 10px; /*diminui tamanho da distância*/
+    color: ;
+}
+
+spam{
+    color: #3C038C;
+    
+}
+
+p{
+    line-height: 20px;
+    font-family: poppinslight;
+
+}
+
+a{
+    color: white;
+}
+
+a:hover{ /*efeito de passar o mouse por cima e mudar de cor*/
+    color: #3C038C;
+}
+
+#faleconoscobtn{
+    border: 2px solid #3C038C;
+    padding: 10px; /*aumenta a margem interna*/ 
+    border-radius: 15px;
+
+
+}
+
+#faleconoscobtn:hover{ /*efeito de quando passar o mouse mudar o bgcolor*/ 
+    border: 2px solid #3C038C;
+    padding: 10px; /*aumenta a margem interna*/ 
+    border-radius: 15px;
+    background-color: #3C038C; 
+    color: white;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%; /*fica metade od tamanho da div*/
+}
+
+input{
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    
+}
