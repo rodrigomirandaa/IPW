@@ -1,0 +1,15 @@
+header{
+    display: flex;
+    flex-direction:row;
+
+    
+}
+
+a{
+    color: #d3d3d3; /*trocar*/
+}
+
+header{
+    display: flex ; /*transforma  numa felxbox*/
+    flex-direction: row; /*trnsforma numa linha*/
+}
