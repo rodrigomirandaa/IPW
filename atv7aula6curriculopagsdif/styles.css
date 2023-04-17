@@ -1,15 +1,19 @@
-header{
-    display: flex;
-    flex-direction:row;
 
-    
+.navbar{
+    color: #666666;
+}
+
+li{
+    display: inline-block; /*trnsforma a lista de cima numa linha*/
+    margin: 20px;
 }
 
 a{
-    color: #d3d3d3; /*trocar*/
+    color: #666666; /*trocar*/
 }
 
 header{
     display: flex ; /*transforma  numa felxbox*/
     flex-direction: row; /*trnsforma numa linha*/
 }
+
