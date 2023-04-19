@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav {
+    background-color: #ddd;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+article {
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+
+aside ul {
+    background-color: #eee;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    font-size: 1.1em;
+}
+
+aside li {
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+}
